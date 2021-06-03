@@ -13,12 +13,13 @@
     - result 预测结果路径
 - model
     - xgboost 模型保存地址
-    xgbost.py 模型文件
-feature.py
-main.py 程序主入口
-myconfig.py 项目配置文件
-preprocess.py 数据预处理文件
-utils.py  若干函数工具
+    - xgbost.py 模型文件
+
+- feature.py 特征处理文件
+- main.py 程序主入口
+- myconfig.py 项目配置文件
+- preprocess.py 数据预处理文件
+- utils.py  若干函数工具
 
 ## 运行方式
 - 安装相关依赖包
@@ -27,6 +28,8 @@ utils.py  若干函数工具
     - testA.csv
     - sample_submit.csv
 
-- python main.py
-
+- 运行主文件
+```
 python main.py
+```
+
